@@ -2,7 +2,7 @@
 
 This is an unofficial update of PhileasFogg's mod which can be found on the [Ludeon Forums](url=https://ludeon.com/forums/index.php?topic=34214.msg349406)
 
-#Feature overview
+# Feature overview
 
 ## Installation of new bodyparts (third eye, more arms, supporting organ parts, etc.) and some experimental brain surgery
 Harvested bodyparts and organs can now be installed at "unusual" places (for example as a third leg). But as your pawns bodies and brains aren't prepaired for this, their benefits are limited.
