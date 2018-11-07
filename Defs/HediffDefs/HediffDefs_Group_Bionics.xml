@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<HediffDef Name="addedPartBionics" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<addedPartProps>
+			<isBionic>true</isBionic>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- Added body parts -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>AdditionalPowerArm</defName>
+		<label>additional (power) arm</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MeleeHitChance>+0.1</MeleeHitChance>
+					<MeleeWeapon_Cooldown>-0.2</MeleeWeapon_Cooldown>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>PowerArm</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AdditionalBionicArm</defName>
+		<label>additional (bionic) arm</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MeleeHitChance>+0.05</MeleeHitChance>
+					<MeleeWeapon_Cooldown>-0.15</MeleeWeapon_Cooldown>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ThirdBionicLeg</defName>
+		<label>third (bionic) leg</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>AdditionalBionicEar</defName>
+		<label>additional (bionic) ear</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicEar</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ThirdBionicEye</defName>
+		<label>third (bionic) eye</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ShootingAccuracy>+0.1</ShootingAccuracy>
+					<AimingDelayFactor>-0.1</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>AdditionalBionicSpine</defName>
+		<label>supporting bionic spine</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicSpine</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>CentipedeTail</defName>
+		<label>centipede tail</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<verbs>
+					<li>
+						<verbClass>Verb_MeleeAttack</verbClass>
+						<defaultCooldownTime>1.65</defaultCooldownTime>
+						<meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+						<meleeDamageDef>Blunt</meleeDamageDef>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>CentipedeTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<isBionic>true</isBionic>
+			<isSolid>true</isSolid>
+			<partEfficiency>0.35</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

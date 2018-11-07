@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef Name="SurgerySyntheticImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>13</minLevel>
+			</li>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallJoywire</defName>
+		<label>install joywire</label>
+		<description>Installs joywire.</description>
+		<jobString>Installing joywire.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Joywire</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Joywire</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>RewardCentre</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Joywire</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallPainstopper</defName>
+		<label>install painstopper</label>
+		<description>Installs painstopper.</description>
+		<jobString>Installing painstopper.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Painstopper</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Painstopper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Thalamus</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Painstopper</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallAIChip</defName>
+		<label>install AI chip</label>
+		<description>Installs AI chip.</description>
+		<jobString>Installing AI chip.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIChip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AIChip</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotBrainUp</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIChip</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallAIPersonaCore</defName>
+		<label>install AI persona core</label>
+		<description>Installs AI persona core.</description>
+		<jobString>Installing AI persona core.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIPersonaCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AIPersonaCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotBrainDown</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIPersonaCore</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallSecondHeart</defName>
+		<label>install additional ventricles</label>
+		<description>Installs additional ventricles.</description>
+		<jobString>Installing additional ventricles.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Heart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotHeart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SecondHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallSecondStomach</defName>
+		<label>install second stomach</label>
+		<description>Installs second stomach.</description>
+		<jobString>Installing second stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Stomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Stomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotStomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SecondStomach</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallSecondSpleed</defName>
+		<label>install second spleed</label>
+		<description>Installs second spleed.</description>
+		<jobString>Installing second spleed.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Spleed</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Spleed</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotSpleed</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SecondSpleed</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallAdditionalLung</defName>
+		<label>install additional lobe of lung</label>
+		<description>Installs additional lobe of lung.</description>
+		<jobString>Installing additional lobe of lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Lung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Lung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotLeftLung</li>
+			<li>ModulSlotRightLung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdditionalLung</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallAdditionalKidney</defName>
+		<label>install additional kidney</label>
+		<description>Installs additional kidney.</description>
+		<jobString>Installing additional kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Kidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotLeftKidney</li>
+			<li>ModulSlotRightKidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdditionalKidney</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallSecondLiver</defName>
+		<label>install third lobe of liver</label>
+		<description>Installs third lobe of liver.</description>
+		<jobString>Installing third lobe of liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LobeLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LobeLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotLiver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SecondLiver</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallAdditionalArm</defName>
+		<label>install additional arm</label>
+		<description>Installs additional arm.</description>
+		<jobString>Installing additional arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Arm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Arm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotPelvisLeft</li>
+			<li>ModulSlotPelvisRight</li>
+			<li>ModulSlotSpineLeftDown</li>
+			<li>ModulSlotSpineRightDown</li>
+			<li>ModulSlotLeftShoulder</li>
+			<li>ModulSlotRightShoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdditionalArm</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallThirdLeg</defName>
+		<label>install third leg</label>
+		<description>Installs third leg.</description>
+		<jobString>Installing third leg.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Leg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotPelvisDown</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ThirdLeg</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallAdditionalEar</defName>
+		<label>install additional ear</label>
+		<description>Installs additional ear.</description>
+		<jobString>Installing additional ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ear</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Ear</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotHeadLeft</li>
+			<li>ModulSlotHeadRight</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdditionalEar</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallThirdEye</defName>
+		<label>install third eye</label>
+		<description>Installs third eye.</description>
+		<jobString>Installing third eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Eye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Eye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotHeadFront</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ThirdEye</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySyntheticImplant">
+		<defName>InstallCentipedeTail</defName>
+		<label>install centipede tail</label>
+		<description>Installs centipede tail.</description>
+		<jobString>Installing centipede tail.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CentipedeTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CentipedeTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ModulSlotPelvisRear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>CentipedeTail</addsHediff>
+	</RecipeDef>
+
+</RecipeDefs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="BodyPartArtificialBase">
+		<defName>CentipedeTail</defName>
+		<label>centipede tail</label>
+		<description>A centipede tail.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>1</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<techHediffsTags>
+			<li>SpecialWeapon</li>
+		</techHediffsTags>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
+
+</ThingDefs>

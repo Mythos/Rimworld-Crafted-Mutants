@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<HediffDef Name="addedPartAdvanced" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(18,215,57)</defaultLabelColor>
+		<addedPartProps>
+			<isBionic>true</isBionic>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef Name="ImplantBase" Abstract="True">
+		<hediffClass>Hediff_Implant</hediffClass>
+		<defaultLabelColor>(18,215,57)</defaultLabelColor>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<isBionic>true</isBionic>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- Added body parts -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdditionalAdvancedPowerArm</defName>
+		<label>additional (advanced power) arm</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MeleeHitChance>+0.15</MeleeHitChance>
+					<MeleeWeapon_Cooldown>-0.25</MeleeWeapon_Cooldown>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>AdvancedPowerArm</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdditionalAdvancedBionicArm</defName>
+		<label>additional (advanced bionic) arm</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MeleeHitChance>+0.1</MeleeHitChance>
+					<MeleeWeapon_Cooldown>-0.2</MeleeWeapon_Cooldown>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>AdvancedBionicArm</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>ThirdAdvancedBionicLeg</defName>
+		<label>third (advanced bionic) leg</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>AdvancedBionicLeg</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdditionalAdvancedBionicEar</defName>
+		<label>additional (advanced bionic) ear</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>AdvancedBionicEar</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>ThirdAdvancedBionicEye</defName>
+		<label>third (advanced bionic) eye</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ShootingAccuracy>+0.15</ShootingAccuracy>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>AdvancedBionicEye</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdditionalAdvancedBionicSpine</defName>
+		<label>supporting advanced bionic spine</label>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>AdvancedBionicSpine</spawnThingOnRemoved>
+	</HediffDef>
+
+</Defs>

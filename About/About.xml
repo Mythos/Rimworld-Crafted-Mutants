@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Crafted Mutants v1.0.0</name>
+	<author>PhileasFogg</author>
+	<url>https://ludeon.com/forums/index.php?topic=34214.0</url>
+	<targetVersion>0.17.1557</targetVersion>
+	<description>Integrates extra features into RimWorld:
+ - Installation of new bodyparts (third eye, more arms, supporting organ parts, etc.)
+ - Harvesting and reintegrating of all available bodyparts and replacing with surrogates
+ - Harvesting of mechanoid bodyparts for simple prosthetics
+
+ ...and some things more...
+
+Needs "Extended Human Body Simulation" above it in your mod list to work!
+
+Credits and Thanks to...
+ - Ykara, for his/her both fantastic mods, which I used as a basis, from which my small project started that (at first not intended) grew into this mod: "EPOE (Expanded Prosthetics and Organ Engineering)" and "Harvest Everything!"
+ - Marnador, for the RimWor(l)d font.
+ - Tynan, for this great game!</description>
+</ModMetaData>
