@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="SurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.99</surgerySuccessChanceFactor>
@@ -7,10 +7,7 @@
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<workAmount>3000</workAmount>
 		<skillRequirements>
-			<li>
-				<skill>Medicine</skill>
-				<minLevel>5</minLevel>
-			</li>
+			<Medicine>5</Medicine>
 		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
@@ -329,4 +326,4 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

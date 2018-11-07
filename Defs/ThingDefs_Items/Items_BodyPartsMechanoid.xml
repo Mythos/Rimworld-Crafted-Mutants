@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="BodyPartArtificialBase">
 		<defName>CentipedeTail</defName>
 		<label>centipede tail</label>
 		<description>A centipede tail.</description>
 		<graphicData>
-			<texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -20,4 +20,4 @@
 		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

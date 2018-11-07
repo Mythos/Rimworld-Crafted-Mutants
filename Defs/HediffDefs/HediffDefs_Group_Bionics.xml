@@ -7,8 +7,8 @@
 		<isBad>false</isBad>
 		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+			<betterThanNatural>true</betterThanNatural>
+			<solid>true</solid>
 		</addedPartProps>
 	</HediffDef>
 
@@ -28,7 +28,7 @@
 				</capMods>
 				<statOffsets>
 					<MeleeHitChance>+0.1</MeleeHitChance>
-					<MeleeWeapon_Cooldown>-0.2</MeleeWeapon_Cooldown>
+					<MeleeWeapon_CooldownMultiplier>-0.2</MeleeWeapon_CooldownMultiplier>
 				</statOffsets>
 			</li>
 		</stages>
@@ -49,7 +49,7 @@
 				</capMods>
 				<statOffsets>
 					<MeleeHitChance>+0.05</MeleeHitChance>
-					<MeleeWeapon_Cooldown>-0.15</MeleeWeapon_Cooldown>
+					<MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
 				</statOffsets>
 			</li>
 		</stages>
@@ -103,7 +103,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<ShootingAccuracy>+0.1</ShootingAccuracy>
+					<ShootingAccuracyPawn>+0.1</ShootingAccuracyPawn>
 					<AimingDelayFactor>-0.1</AimingDelayFactor>
 				</statOffsets>
 			</li>
@@ -165,8 +165,8 @@
 		<spawnThingOnRemoved>CentipedeTail</spawnThingOnRemoved>
 		<addedPartProps>
 			<isGoodWeapon>true</isGoodWeapon>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+			<betterThanNatural>true</betterThanNatural>
+			<solid>true</solid>
 			<partEfficiency>0.35</partEfficiency>
 		</addedPartProps>
 	</HediffDef>

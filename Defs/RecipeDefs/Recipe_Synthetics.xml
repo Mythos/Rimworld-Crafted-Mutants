@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="SurgerySyntheticOrgan" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
@@ -7,10 +7,7 @@
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<workAmount>2000</workAmount>
 		<skillRequirements>
-			<li>
-				<skill>Medicine</skill>
-				<minLevel>7</minLevel>
-			</li>
+			<Medicine>7</Medicine>
 		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
@@ -49,8 +46,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftLung</li>
-			<li>RightLung</li>
+			<li>Lung</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticLung</addsHediff>
 	</RecipeDef>
@@ -198,8 +194,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftKidney</li>
-			<li>RightKidney</li>
+			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticKidney</addsHediff>
 	</RecipeDef>
@@ -273,8 +268,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftLung</li>
-			<li>RightLung</li>
+			<li>Lung</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticLung</addsHediff>
 	</RecipeDef>
@@ -422,8 +416,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftKidney</li>
-			<li>RightKidney</li>
+			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticKidney</addsHediff>
 	</RecipeDef>
@@ -465,4 +458,4 @@
 		<addsHediff>SyntheticHeart</addsHediff>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

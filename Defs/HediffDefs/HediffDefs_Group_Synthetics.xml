@@ -6,8 +6,8 @@
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+			<betterThanNatural>true</betterThanNatural>
+			<solid>true</solid>
 			<partEfficiency>1</partEfficiency>
 		</addedPartProps>
 		<defaultLabelColor>(188,39,242)</defaultLabelColor>

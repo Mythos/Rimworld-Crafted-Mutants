@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="SurgerySyntheticImplant" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
@@ -7,10 +7,7 @@
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<workAmount>4000</workAmount>
 		<skillRequirements>
-			<li>
-				<skill>Medicine</skill>
-				<minLevel>13</minLevel>
-			</li>
+			<Medicine>13</Medicine>
 		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
@@ -581,4 +578,4 @@
 		<addsHediff>CentipedeTail</addsHediff>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

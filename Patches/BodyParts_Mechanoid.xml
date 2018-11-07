@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="LeftSightSensor"]</xpath>
-		<value>
-			<spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="RightSightSensor"]</xpath>
+		<xpath>*/BodyPartDef[defName="SightSensor"]</xpath>
 		<value>
 			<spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
 		</value>
@@ -22,56 +15,28 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="LeftMechanicalArm"]</xpath>
+		<xpath>*/BodyPartDef[defName="MechanicalArm"]</xpath>
 		<value>
 			<spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="RightMechanicalArm"]</xpath>
-		<value>
-			<spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="LeftMechanicalHand"]</xpath>
+		<xpath>*/BodyPartDef[defName="MechanicalHand"]</xpath>
 		<value>
 			<spawnThingOnRemoved>SimpleProstheticHand</spawnThingOnRemoved>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="RightMechanicalHand"]</xpath>
-		<value>
-			<spawnThingOnRemoved>SimpleProstheticHand</spawnThingOnRemoved>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="LeftMechanicalLeg"]</xpath>
+		<xpath>*/BodyPartDef[defName="MechanicalLeg"]</xpath>
 		<value>
 			<spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="RightMechanicalLeg"]</xpath>
-		<value>
-			<spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="LeftMechanicalFoot"]</xpath>
-		<value>
-			<spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/BodyPartDef[defName="RightMechanicalFoot"]</xpath>
+		<xpath>*/BodyPartDef[defName="MechanicalFoot"]</xpath>
 		<value>
 			<spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
 		</value>

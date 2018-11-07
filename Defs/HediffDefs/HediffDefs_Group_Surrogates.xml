@@ -15,7 +15,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -40,7 +40,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateLung</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -61,7 +61,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
@@ -72,7 +72,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
@@ -83,7 +83,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateLiver</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
@@ -94,7 +94,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateKidney</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
@@ -105,7 +105,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
 		<addedPartProps>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>
 	</HediffDef>

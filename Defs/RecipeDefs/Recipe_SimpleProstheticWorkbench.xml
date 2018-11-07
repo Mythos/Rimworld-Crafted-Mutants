@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Abstract="True" Name="RecipeSimpleProsthesis">
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -9,10 +9,7 @@
 		<workSkill>Crafting</workSkill>
 		<workAmount>3500</workAmount>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>7</minLevel>
-			</li>
+			<Crafting>7</Crafting>
 		</skillRequirements>
 		<recipeUsers>
 			<li>TableSimpleProsthetic</li>
@@ -355,4 +352,4 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

@@ -12,7 +12,7 @@
 		<defaultLabelColor>(244,210,131)</defaultLabelColor>
 		<isBad>false</isBad>
 		<addedPartProps>
-			<isBionic>true</isBionic>
+			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
 
@@ -22,7 +22,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
+			<betterThanNatural>true</betterThanNatural>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -35,7 +35,7 @@
 				</capMods>
 				<statOffsets>
 					<MeleeHitChance>+0.05</MeleeHitChance>
-					<MeleeWeapon_Cooldown>-0.05</MeleeWeapon_Cooldown>
+					<MeleeWeapon_CooldownMultiplier>-0.05</MeleeWeapon_CooldownMultiplier>
 				</statOffsets>
 			</li>
 		</stages>
@@ -47,7 +47,7 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
+			<betterThanNatural>true</betterThanNatural>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -68,13 +68,13 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>TacticalCorneaImplant</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
+			<betterThanNatural>true</betterThanNatural>
 			<partEfficiency>1</partEfficiency>
 		</addedPartProps>
 		<stages>
 			<li>
 				<statOffsets>
-					<ShootingAccuracy>+0.1</ShootingAccuracy>
+					<ShootingAccuracyPawn>+0.1</ShootingAccuracyPawn>
 					<AimingDelayFactor>-0.05</AimingDelayFactor>
 				</statOffsets>
 			</li>
@@ -87,12 +87,12 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+			<betterThanNatural>true</betterThanNatural>
+			<solid>true</solid>
 			<partEfficiency>1</partEfficiency>
 		</addedPartProps>
 		<comps>
-			<li Class="HediffCompProperties_HealOldWounds" />
+			<li Class="HediffCompProperties_HealPermanentWounds" />
 		</comps>
 		<stages>
 			<li>
@@ -114,7 +114,7 @@
 						<mtbDays>180</mtbDays>
 					</li>
 					<li>
-						<mentalState>WanderPsychotic</mentalState>
+						<mentalState>Wander_Psychotic</mentalState>
 						<mtbDays>30</mtbDays>
 					</li>
 				</mentalStateGivers>
@@ -129,8 +129,8 @@
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>AIChip</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+			<betterThanNatural>true</betterThanNatural>
+			<solid>true</solid>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -309,7 +309,7 @@
 				</capMods>
 				<statOffsets>
 					<MeleeHitChance>+0.05</MeleeHitChance>
-					<MeleeWeapon_Cooldown>-0.15</MeleeWeapon_Cooldown>
+					<MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
 				</statOffsets>
 			</li>
 		</stages>
@@ -366,7 +366,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<ShootingAccuracy>+0.05</ShootingAccuracy>
+					<ShootingAccuracyPawn>+0.05</ShootingAccuracyPawn>
 					<AimingDelayFactor>-0.05</AimingDelayFactor>
 				</statOffsets>
 			</li>

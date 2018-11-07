@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="Synthetic" ParentName="BodyPartBase" Abstract="True">
 		<tradeTags>
@@ -109,9 +109,10 @@
 		<defName>SyntheticSkin</defName>
 		<label>synthetic skin</label>
 		<description>A small piece of an interesting looking skin-like material. Feels like real skin.</description>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>875</MarketValue>
+			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
 
@@ -141,4 +142,4 @@
 		</techHediffsTags>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>
