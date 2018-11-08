@@ -238,10 +238,10 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticImplant">
-		<defName>InstallSecondSpleed</defName>
-		<label>install second spleed</label>
-		<description>Installs second spleed.</description>
-		<jobString>Installing second spleed.</jobString>
+		<defName>InstallSecondSpleen</defName>
+		<label>install second spleen</label>
+		<description>Installs second spleen.</description>
+		<jobString>Installing second spleen.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -254,7 +254,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Spleed</li>
+						<li>Spleen</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -265,13 +265,13 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>Spleed</li>
+				<li>Spleen</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotSpleed</li>
+			<li>ModulSlotSpleen</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SecondSpleed</addsHediff>
+		<addsHediff>SecondSpleen</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticImplant">

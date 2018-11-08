@@ -54,9 +54,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="Synthetic">
-		<defName>SyntheticSpleed</defName>
-		<label>synthetic spleed</label>
-		<description>An enhanced spleed augmented with synthetic fibres to decrease rejection rate.</description>
+		<defName>SyntheticSpleen</defName>
+		<label>synthetic spleen</label>
+		<description>An enhanced spleen augmented with synthetic fibres to decrease rejection rate.</description>
 		<statBases>
 			<MarketValue>1750</MarketValue>
 			<Mass>2</Mass>
