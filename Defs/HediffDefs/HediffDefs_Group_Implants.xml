@@ -219,8 +219,8 @@
 	</HediffDef>
 
 	<HediffDef ParentName="ImplantHediffBase">
-		<defName>SecondSpleed</defName>
-		<label>second spleed</label>
+		<defName>SecondSpleen</defName>
+		<label>second spleen</label>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<stages>
 			<li>
@@ -237,7 +237,7 @@
 				</capMods>
 			</li>
 		</stages>
-		<spawnThingOnRemoved>Spleed</spawnThingOnRemoved>
+		<spawnThingOnRemoved>Spleen</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="ImplantHediffBase">

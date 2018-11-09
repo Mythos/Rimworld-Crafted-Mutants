@@ -52,10 +52,10 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
-		<defName>SyntheticSpleed</defName>
-		<label>synthetic spleed</label>
+		<defName>SyntheticSpleen</defName>
+		<label>synthetic spleen</label>
 		<scenarioCanAdd>true</scenarioCanAdd>
-		<spawnThingOnRemoved>SyntheticSpleed</spawnThingOnRemoved>
+		<spawnThingOnRemoved>SyntheticSpleen</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<capMods>
@@ -162,8 +162,8 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
-		<defName>SecondSyntheticSpleed</defName>
-		<label>second (synthetic) spleed</label>
+		<defName>SecondSyntheticSpleen</defName>
+		<label>second (synthetic) spleen</label>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<stages>
 			<li>
@@ -179,7 +179,7 @@
 				</capMods>
 			</li>
 		</stages>
-		<spawnThingOnRemoved>SyntheticSpleed</spawnThingOnRemoved>
+		<spawnThingOnRemoved>SyntheticSpleen</spawnThingOnRemoved>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
