@@ -121,7 +121,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainUp</li>
+			<li>ModuleSlotBrainUp</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AIChip</addsHediff>
 	</RecipeDef>
@@ -158,7 +158,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainDown</li>
+			<li>ModuleSlotBrainDown</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AIPersonaCore</addsHediff>
 	</RecipeDef>
@@ -195,7 +195,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotHeart</li>
+			<li>ModuleSlotHeart</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SecondHeart</addsHediff>
 	</RecipeDef>
@@ -232,7 +232,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotStomach</li>
+			<li>ModuleSlotStomach</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SecondStomach</addsHediff>
 	</RecipeDef>
@@ -269,7 +269,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotSpleen</li>
+			<li>ModuleSlotSpleen</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SecondSpleen</addsHediff>
 	</RecipeDef>
@@ -306,8 +306,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotLeftLung</li>
-			<li>ModulSlotRightLung</li>
+			<li>ModuleSlotLeftLung</li>
+			<li>ModuleSlotRightLung</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalLung</addsHediff>
 	</RecipeDef>
@@ -344,8 +344,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotLeftKidney</li>
-			<li>ModulSlotRightKidney</li>
+			<li>ModuleSlotLeftKidney</li>
+			<li>ModuleSlotRightKidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalKidney</addsHediff>
 	</RecipeDef>
@@ -382,7 +382,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotLiver</li>
+			<li>ModuleSlotLiver</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SecondLiver</addsHediff>
 	</RecipeDef>
@@ -419,12 +419,12 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisLeft</li>
-			<li>ModulSlotPelvisRight</li>
-			<li>ModulSlotSpineLeftDown</li>
-			<li>ModulSlotSpineRightDown</li>
-			<li>ModulSlotLeftShoulder</li>
-			<li>ModulSlotRightShoulder</li>
+			<li>ModuleSlotPelvisLeft</li>
+			<li>ModuleSlotPelvisRight</li>
+			<li>ModuleSlotSpineLeftDown</li>
+			<li>ModuleSlotSpineRightDown</li>
+			<li>ModuleSlotLeftShoulder</li>
+			<li>ModuleSlotRightShoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalArm</addsHediff>
 	</RecipeDef>
@@ -461,7 +461,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisDown</li>
+			<li>ModuleSlotPelvisDown</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ThirdLeg</addsHediff>
 	</RecipeDef>
@@ -498,8 +498,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotHeadLeft</li>
-			<li>ModulSlotHeadRight</li>
+			<li>ModuleSlotHeadLeft</li>
+			<li>ModuleSlotHeadRight</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalEar</addsHediff>
 	</RecipeDef>
@@ -536,7 +536,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotHeadFront</li>
+			<li>ModuleSlotHeadFront</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ThirdEye</addsHediff>
 	</RecipeDef>
@@ -573,7 +573,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisRear</li>
+			<li>ModuleSlotPelvisRear</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>CentipedeTail</addsHediff>
 	</RecipeDef>
