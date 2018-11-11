@@ -270,12 +270,12 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisLeft</li>
-			<li>ModulSlotPelvisRight</li>
-			<li>ModulSlotSpineLeftDown</li>
-			<li>ModulSlotSpineRightDown</li>
-			<li>ModulSlotLeftShoulder</li>
-			<li>ModulSlotRightShoulder</li>
+			<li>ModuleSlotPelvisLeft</li>
+			<li>ModuleSlotPelvisRight</li>
+			<li>ModuleSlotSpineLeftDown</li>
+			<li>ModuleSlotSpineRightDown</li>
+			<li>ModuleSlotLeftShoulder</li>
+			<li>ModuleSlotRightShoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalPowerArm</addsHediff>
 	</RecipeDef>
@@ -312,12 +312,12 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisLeft</li>
-			<li>ModulSlotPelvisRight</li>
-			<li>ModulSlotSpineLeftDown</li>
-			<li>ModulSlotSpineRightDown</li>
-			<li>ModulSlotLeftShoulder</li>
-			<li>ModulSlotRightShoulder</li>
+			<li>ModuleSlotPelvisLeft</li>
+			<li>ModuleSlotPelvisRight</li>
+			<li>ModuleSlotSpineLeftDown</li>
+			<li>ModuleSlotSpineRightDown</li>
+			<li>ModuleSlotLeftShoulder</li>
+			<li>ModuleSlotRightShoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalBionicArm</addsHediff>
 	</RecipeDef>
@@ -354,7 +354,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisDown</li>
+			<li>ModuleSlotPelvisDown</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ThirdBionicLeg</addsHediff>
 	</RecipeDef>
@@ -391,7 +391,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotHeadFront</li>
+			<li>ModuleSlotHeadFront</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ThirdBionicEye</addsHediff>
 	</RecipeDef>
@@ -428,8 +428,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotHeadLeft</li>
-			<li>ModulSlotHeadRight</li>
+			<li>ModuleSlotHeadLeft</li>
+			<li>ModuleSlotHeadRight</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalBionicEar</addsHediff>
 		<workSkill>Medicine</workSkill>
@@ -468,7 +468,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotSpineRearCentreCentre</li>
+			<li>ModuleSlotSpineRearCentreCentre</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdditionalBionicSpine</addsHediff>
 	</RecipeDef>

@@ -46,12 +46,12 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotSpineFrontUpLeft</li> 
-			<li>ModulSlotSpineFrontUpRight</li> 
-			<li>ModulSlotLeftArmUp</li> 
-			<li>ModulSlotLeftArmDown</li> 
-			<li>ModulSlotRightArmUp</li> 
-			<li>ModulSlotRightArmDown</li> 
+			<li>ModuleSlotSpineFrontUpLeft</li> 
+			<li>ModuleSlotSpineFrontUpRight</li> 
+			<li>ModuleSlotLeftArmUp</li> 
+			<li>ModuleSlotLeftArmDown</li> 
+			<li>ModuleSlotRightArmUp</li> 
+			<li>ModuleSlotRightArmDown</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>MuscleStimulatorArms</addsHediff>
 	</RecipeDef>
@@ -88,11 +88,11 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotPelvisCentre</li> 
-			<li>ModulSlotLeftLegUp</li> 
-			<li>ModulSlotLeftLegDown</li> 
-			<li>ModulSlotRightLegUp</li> 
-			<li>ModulSlotRightLegDown</li> 
+			<li>ModuleSlotPelvisCentre</li> 
+			<li>ModuleSlotLeftLegUp</li> 
+			<li>ModuleSlotLeftLegDown</li> 
+			<li>ModuleSlotRightLegUp</li> 
+			<li>ModuleSlotRightLegDown</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>MuscleStimulatorLegs</addsHediff>
 	</RecipeDef>
@@ -129,9 +129,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotSpineFrontUpCentre</li> 
-			<li>ModulSlotLeftEye</li> 
-			<li>ModulSlotRightEye</li> 
+			<li>ModuleSlotSpineFrontUpCentre</li> 
+			<li>ModuleSlotLeftEye</li> 
+			<li>ModuleSlotRightEye</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>TacticalCorneaImplant</addsHediff>
 	</RecipeDef>
@@ -168,7 +168,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainFront</li> 
+			<li>ModuleSlotBrainFront</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>ConstructorCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -206,7 +206,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainCentre</li> 
+			<li>ModuleSlotBrainCentre</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>FarmerCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -244,7 +244,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainRear</li> 
+			<li>ModuleSlotBrainRear</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>MinerCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -282,7 +282,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainLeft</li> 
+			<li>ModuleSlotBrainLeft</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>DoctorCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -320,7 +320,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ModulSlotBrainRight</li> 
+			<li>ModuleSlotBrainRight</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>DiplomatCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>

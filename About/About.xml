@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Crafted Mutants v1.1.0</name>
+	<name>Crafted Mutants v1.2.0</name>
 	<author>Mythos</author>
 	<url>https://github.com/Mythos/Rimworld-Crafted-Mutants</url>
 	<targetVersion>1.0.0</targetVersion>
 	<description>Integrates extra features into RimWorld:
- - Installation of new bodyparts (third eye, more arms, supporting organ parts, etc.)
- - Harvesting and reintegrating of all available bodyparts and replacing with surrogates
- - Harvesting of mechanoid bodyparts for simple prosthetics
+ - Installation of new body parts (third eye, more arms, supporting organ parts, etc.)
+ - Harvesting and reintegrating of all available body parts and replacing with surrogates
+ - Harvesting of mechanoid body parts for simple prosthetics
 
  ...and some things more...
 

@@ -89,10 +89,10 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
-		<defName>InstallSyntheticSpleed</defName>
-		<label>install synthetic spleed</label>
-		<description>Installs a synthetic spleed.</description>
-		<jobString>Installing synthetic spleed.</jobString>
+		<defName>InstallSyntheticSpleen</defName>
+		<label>install synthetic spleen</label>
+		<description>Installs a synthetic spleen.</description>
+		<jobString>Installing synthetic spleen.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -105,7 +105,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SyntheticSpleed</li>
+						<li>SyntheticSpleen</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -116,13 +116,13 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>SyntheticSpleed</li>
+				<li>SyntheticSpleen</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Spleed</li>
+			<li>Spleen</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticSpleed</addsHediff>
+		<addsHediff>SyntheticSpleen</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
@@ -311,10 +311,10 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
-		<defName>InstallSecondSyntheticSpleed</defName>
-		<label>install second (synthetic) spleed</label>
-		<description>Installs a synthetic spleed.</description>
-		<jobString>Installing synthetic spleed.</jobString>
+		<defName>InstallSecondSyntheticSpleen</defName>
+		<label>install second (synthetic) spleen</label>
+		<description>Installs a synthetic spleen.</description>
+		<jobString>Installing synthetic spleen.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -327,7 +327,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SyntheticSpleed</li>
+						<li>SyntheticSpleen</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -338,13 +338,13 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>SyntheticSpleed</li>
+				<li>SyntheticSpleen</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Spleed</li>
+			<li>Spleen</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticSpleed</addsHediff>
+		<addsHediff>SyntheticSpleen</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">

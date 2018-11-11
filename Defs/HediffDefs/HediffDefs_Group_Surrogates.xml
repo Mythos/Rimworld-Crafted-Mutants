@@ -67,8 +67,8 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSurrogate">
-		<defName>SurrogateSpleed</defName>
-		<label>surrogate spleed</label>
+		<defName>SurrogateSpleen</defName>
+		<label>surrogate spleen</label>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
 		<addedPartProps>
