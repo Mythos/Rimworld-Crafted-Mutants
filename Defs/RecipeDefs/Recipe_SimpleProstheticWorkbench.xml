@@ -113,11 +113,11 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeSimpleProsthesis">
-		<defName>CreateArtificialRib</defName>
-		<label>craft artificial rib</label>
-		<description>Crafts an artificial rib from steel.</description>
+		<defName>CreateArtificialRibcage</defName>
+		<label>craft artificial ribcage</label>
+		<description>Crafts an artificial ribcage from steel.</description>
 		<products>
-			<ArtificialRib>1</ArtificialRib>
+			<ArtificialRibcage>1</ArtificialRibcage>
 		</products>
 		<ingredients>
 			<li>
