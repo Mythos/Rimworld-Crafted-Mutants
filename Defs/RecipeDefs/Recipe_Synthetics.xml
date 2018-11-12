@@ -268,9 +268,10 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Lung</li>
+			<li>ModuleSlotLeftLung</li>
+			<li>ModuleSlotRightLung</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticLung</addsHediff>
+		<addsHediff>AdditionalSyntheticLung</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
@@ -305,9 +306,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Stomach</li>
+			<li>ModuleSlotStomach</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticStomach</addsHediff>
+		<addsHediff>SecondSyntheticStomach</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
@@ -342,9 +343,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Spleen</li>
+			<li>ModuleSlotSpleen</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticSpleen</addsHediff>
+		<addsHediff>SecondSyntheticSpleen</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
@@ -379,9 +380,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Liver</li>
+			<li>ModuleSlotLiver</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticLiver</addsHediff>
+		<addsHediff>SecondSyntheticLiver</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
@@ -416,9 +417,10 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Kidney</li>
+			<li>ModuleSlotLeftKidney</li>
+			<li>ModuleSlotRightKidney</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticKidney</addsHediff>
+		<addsHediff>AdditionalSyntheticKidney</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgerySyntheticOrgan">
@@ -453,9 +455,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Heart</li>
+			<li>ModuleSlotHeart</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticHeart</addsHediff>
+		<addsHediff>SecondSyntheticHeart</addsHediff>
 	</RecipeDef>
 
 </Defs>

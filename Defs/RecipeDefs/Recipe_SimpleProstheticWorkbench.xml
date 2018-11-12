@@ -126,7 +126,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>30</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
