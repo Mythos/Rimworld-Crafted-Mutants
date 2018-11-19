@@ -14,7 +14,7 @@
 
 	<!-- Added body parts -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<!--<HediffDef ParentName="addedPartBionics">
 		<defName>AdditionalPowerArm</defName>
 		<label>additional (power) arm</label>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -130,7 +130,7 @@
 			</li>
 		</stages>
 		<spawnThingOnRemoved>BionicSpine</spawnThingOnRemoved>
-	</HediffDef>
+	</HediffDef>-->
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>CentipedeTail</defName>

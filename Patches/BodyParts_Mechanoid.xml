@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationAdd">
+	<!-- EPOE <Operation Class="PatchOperationAdd">
 		<xpath>*/BodyPartDef[defName="SightSensor"]</xpath>
 		<value>
 			<spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
@@ -12,7 +12,7 @@
 		<value>
 			<spawnThingOnRemoved>ArtificialNose</spawnThingOnRemoved>
 		</value>
-	</Operation>
+	</Operation> 
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/BodyPartDef[defName="MechanicalArm"]</xpath>
@@ -40,7 +40,7 @@
 		<value>
 			<spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
 		</value>
-	</Operation>
+	</Operation> -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/BodyPartDef[defName="MechanicalCentipedeBodySixthRing"]</xpath>
@@ -49,10 +49,10 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd">
+	<!--<Operation Class="PatchOperationAdd">
 		<xpath>*/BodyPartDef[defName="ArtificialBrain"]</xpath>
 		<value>
 			<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
-		</value>
+		</value>-->
 	</Operation>
 </Patch>
