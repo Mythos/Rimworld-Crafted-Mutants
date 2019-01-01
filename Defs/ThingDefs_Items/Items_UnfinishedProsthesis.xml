@@ -32,9 +32,6 @@
 			<li>Unfinished</li>
 		</thingCategories>
 		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
 		</stuffCategories>
 	</ThingDef>
 
