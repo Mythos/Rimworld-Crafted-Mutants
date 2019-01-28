@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>CraftedMutants</identifier>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
     <dependencies>
         <li>725956940</li> <!-- Expanded Prosthetics and Organ Engineering -->
         <li>1559033367</li> <!-- Extended Human Body Simulation -->

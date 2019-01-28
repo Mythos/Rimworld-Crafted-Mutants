@@ -3,7 +3,9 @@
 	<name>Crafted Mutants</name>
 	<author>Mythos</author>
 	<url>https://github.com/Mythos/Rimworld-Crafted-Mutants</url>
-	<targetVersion>1.0.0</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
 	<description>Integrates extra features into RimWorld:
  - Installation of new body parts (third eye, more arms, supporting organ parts, etc.)
  - Harvesting and reintegrating of all available body parts and replacing with surrogates
