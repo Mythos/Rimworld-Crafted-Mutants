@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.4.0
+
+- Support latest multi-version support changes (#10)
+
 ## Version 1.3.0
 
 - Module slots are now contained by Crafted Mutants (#6)
